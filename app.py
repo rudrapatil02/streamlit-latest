@@ -92,8 +92,8 @@ with col1:
 
     work_orders = {
         "WO123456": {"status": "In Progress", "meter": "MTR98765", "crew": "Team A"},
-        "WO789012": {"status": "Completed", "meter": "MTR65432", "crew": "Team B"},
-        "WO345678": {"status": "Pending", "meter": "MTR32109", "crew": "Team C"},
+        "WO123458": {"status": "Completed", "meter": "MTR98767", "crew": "Team B"},
+        "WO123460": {"status": "Pending", "meter": "MTR98769", "crew": "Team C"},
     }
 
     selected_wo = st.radio("Select a work order:", list(work_orders.keys()))
